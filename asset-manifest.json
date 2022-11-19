@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "https://zuum-studio.github.io/zuum-studio/static/css/main.ebe501f1.css",
-    "main.js": "https://zuum-studio.github.io/zuum-studio/static/js/main.91e5ec5b.js",
-    "static/js/787.1ed0c42c.chunk.js": "https://zuum-studio.github.io/zuum-studio/static/js/787.1ed0c42c.chunk.js",
-    "index.html": "https://zuum-studio.github.io/zuum-studio/index.html",
-    "static/media/getFetch.cjs": "https://zuum-studio.github.io/zuum-studio/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.ebe501f1.css.map": "https://zuum-studio.github.io/zuum-studio/static/css/main.ebe501f1.css.map",
-    "main.91e5ec5b.js.map": "https://zuum-studio.github.io/zuum-studio/static/js/main.91e5ec5b.js.map",
-    "787.1ed0c42c.chunk.js.map": "https://zuum-studio.github.io/zuum-studio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "https://zmajcherczyk.github.io/portfolio/static/css/main.dd76f776.css",
+    "main.js": "https://zmajcherczyk.github.io/portfolio/static/js/main.8057e3d1.js",
+    "static/js/787.1ed0c42c.chunk.js": "https://zmajcherczyk.github.io/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "https://zmajcherczyk.github.io/portfolio/index.html",
+    "static/media/getFetch.cjs": "https://zmajcherczyk.github.io/portfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.dd76f776.css.map": "https://zmajcherczyk.github.io/portfolio/static/css/main.dd76f776.css.map",
+    "main.8057e3d1.js.map": "https://zmajcherczyk.github.io/portfolio/static/js/main.8057e3d1.js.map",
+    "787.1ed0c42c.chunk.js.map": "https://zmajcherczyk.github.io/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebe501f1.css",
-    "static/js/main.91e5ec5b.js"
+    "static/css/main.dd76f776.css",
+    "static/js/main.8057e3d1.js"
   ]
 }
