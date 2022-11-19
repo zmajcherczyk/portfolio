@@ -45,10 +45,13 @@ body::-webkit-scrollbar {
 
 /* //TODO tu mozna dopasowac odstep strzaleczek na karuzel - warto sprawdzic wszystkie widoki na roznych szerokosciach ekranu 
   (F12 w przegladarce i kliknac w ikone telefonu w lewym gornym rogu)
+  mozna procentowo i na sztywno (px)
 */
 .mantine-Carousel-controls {
-  margin-left: -5%;
-  margin-right: -5%;
+  /* margin-left: -5%;
+  margin-right: -5%; */
+  margin-left: -35px;
+  margin-right: -35px;
 }
 
 .mantine-Carousel-indicator {

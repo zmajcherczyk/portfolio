@@ -2,6 +2,7 @@ import { Grid, Skeleton, Container, Box, Image, Center, Text } from '@mantine/co
 
 const child = <Skeleton height={350} animate={false} />;
 
+//TODO przez te marginesy na sztywno (marginLeft: "160px", marginRight: "70px") dla kursu zle sie on wyswietla na malym ekranie - zmienic na procentowe albo cos innego zrobic nie wiem jaki byl zamysl
 export function Course() {
     return (
         <Box>
