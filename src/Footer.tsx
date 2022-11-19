@@ -13,6 +13,7 @@ const useStyles = createStyles((theme) => ({
 export function Footer() {
     const { classes, cx } = useStyles();
 
+    //TODO footer
     return (
         <Box className={classes.footer}>
             <Text align="center">Zuzanna Majcherczyk 2022 © ℗ ® ™</Text>

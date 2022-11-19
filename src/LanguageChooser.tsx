@@ -30,6 +30,7 @@ export function LanguageChooser() {
         displayName: string
     }
     
+    //TODO wyglad buttonow do zmiany jezyka
     function LanguageChooserItem(props: LanguageChooserItemProps) {
         return (
             <Text onClick={() => i18n.changeLanguage(props.code)}>{props.displayName}</Text>

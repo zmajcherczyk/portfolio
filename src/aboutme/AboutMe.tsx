@@ -7,11 +7,12 @@ const useStyles = createStyles((theme) => ({
 
 export function AboutMe() {
     const { classes, cx } = useStyles();
-    const { t } = useTranslation();
-    
+    const { t } = useTranslation(); //TODO to samo na innych stronach + wykorzystanie slownika jak ponizej - {t("aboutMeTitle")}
+    // TODO przyklad responsywnosci ponizej - span={6} zamieniony na lg={6} md={12} (na srednim ekranie zajmie caly wiersz, na duzym pol)
+    // pobawic sie szerokoscia na innych stronach i dopasowac pod telefon wedle uznania (F12 w przegladarce i kliknac w ikone telefonu w lewym gornym rogu)
     return (
         <Grid>
-            <Grid.Col span={6}>
+            <Grid.Col lg={6} md={12}>
                 <Center sx={{height: "100%"}}>
                     <Image
                         width="70%"
@@ -21,10 +22,10 @@ export function AboutMe() {
                     />
                 </Center>
             </Grid.Col>
-            <Grid.Col span={6}>
+            <Grid.Col lg={6} md={12}>
                 <Stack justify="center" sx={{height: "100%"}}>
                     <Text align="justify" size="xl" weight="bold">
-                    {t("aboutMeTitle")}
+                    {t("aboutMeTitle")} 
                     </Text>
                     <Text align="justify" style={{ whiteSpace: "pre-line" }}>
                     {t("aboutMeDescription")}

@@ -43,6 +43,9 @@ body::-webkit-scrollbar {
   overflow: hidden !important;
 }
 
+/* //TODO tu mozna dopasowac odstep strzaleczek na karuzel - warto sprawdzic wszystkie widoki na roznych szerokosciach ekranu 
+  (F12 w przegladarce i kliknac w ikone telefonu w lewym gornym rogu)
+*/
 .mantine-Carousel-controls {
   margin-left: -5%;
   margin-right: -5%;
