@@ -20,8 +20,8 @@ export function LanguageChooser() {
 
     return (
         <Group spacing="xs">
-            <LanguageChooserItem displayName="PL" code="pl"/>
-            <LanguageChooserItem displayName="EN" code="en"/>
+            <LanguageChooserItem displayName="PL" code="pl-PL"/>
+            <LanguageChooserItem displayName="EN" code="en-US"/>
         </Group>
     )
 
