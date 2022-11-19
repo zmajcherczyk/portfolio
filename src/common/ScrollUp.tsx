@@ -34,6 +34,7 @@ export class ScrollUp extends React.Component<ScrollUpProps, ScrollUpState> {
     }, { passive: true });
   }
 
+  //TODO wyglad i pozycja przycisku "do gory"
   render() {
     return (
       <Affix position={{ bottom: 20, right: 20 }}>
