@@ -36,6 +36,7 @@ export function Categories(props: CategoriesProps) {
         )
     }
 
+    // TODO przyklad responsywnej karuzeli - zobacz na "breakpoints" - to samo mozesz zrobic dla innych karuzel jesli chcesz (chodzi o to ze wyswietla sie tylko jeden slajd jak jest maly ekran)
     if (props.carousel) {
         return (
             <Carousel
