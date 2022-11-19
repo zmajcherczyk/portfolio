@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "https://zmajcherczyk.github.io/portfolio/static/css/main.dd76f776.css",
-    "main.js": "https://zmajcherczyk.github.io/portfolio/static/js/main.8057e3d1.js",
-    "static/js/787.1ed0c42c.chunk.js": "https://zmajcherczyk.github.io/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "main.js": "https://zmajcherczyk.github.io/portfolio/static/js/main.0f3f5649.js",
+    "static/js/787.8d439a04.chunk.js": "https://zmajcherczyk.github.io/portfolio/static/js/787.8d439a04.chunk.js",
     "index.html": "https://zmajcherczyk.github.io/portfolio/index.html",
     "static/media/getFetch.cjs": "https://zmajcherczyk.github.io/portfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.dd76f776.css.map": "https://zmajcherczyk.github.io/portfolio/static/css/main.dd76f776.css.map",
-    "main.8057e3d1.js.map": "https://zmajcherczyk.github.io/portfolio/static/js/main.8057e3d1.js.map",
-    "787.1ed0c42c.chunk.js.map": "https://zmajcherczyk.github.io/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.0f3f5649.js.map": "https://zmajcherczyk.github.io/portfolio/static/js/main.0f3f5649.js.map",
+    "787.8d439a04.chunk.js.map": "https://zmajcherczyk.github.io/portfolio/static/js/787.8d439a04.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd76f776.css",
-    "static/js/main.8057e3d1.js"
+    "static/js/main.0f3f5649.js"
   ]
 }
