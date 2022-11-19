@@ -48,6 +48,10 @@ export function Categories(props: CategoriesProps) {
                 nextControlIcon={<IconCaretRight size={25} fill="black" />}
                 align="center"
                 slidesToScroll={1}
+                breakpoints={[
+                    { maxWidth: 'md', slideSize: '50%' },
+                    { maxWidth: 'sm', slideSize: '100%', slideGap: 0 },
+                  ]}
             >
                 {props.items.map((item, index) => (<Carousel.Slide> {createItem(item)} </Carousel.Slide>))}
                 {/* {props.items.map((item, index) => (<Carousel.Slide> {test()} </Carousel.Slide>))} */}

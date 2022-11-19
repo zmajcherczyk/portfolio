@@ -41,7 +41,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### `npm run deploy`
 
-Deploys website to GitHub Pages at https://zuum-studio.github.io/zuum-studio
+Deploys website to GitHub Pages at https://zmajcherczyk.github.io/portfolio
 
 Configured using [this tutorial](https://typeofweb.com/react-js-na-github-pages-dzieki-create-react-app).
 

@@ -1,8 +1,8 @@
 {
-  "name": "zuum-studio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zuum-studio.github.io/zuum-studio",
+  "homepage": "https://zmajcherczyk.github.io/portfolio",
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@mantine/carousel": "^5.2.4",
