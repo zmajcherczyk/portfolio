@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "https://zuum-studio.github.io/zuum-studio/static/css/main.ebe501f1.css",
-    "main.js": "https://zuum-studio.github.io/zuum-studio/static/js/main.71071498.js",
+    "main.js": "https://zuum-studio.github.io/zuum-studio/static/js/main.9770e050.js",
     "static/js/787.8d439a04.chunk.js": "https://zuum-studio.github.io/zuum-studio/static/js/787.8d439a04.chunk.js",
     "index.html": "https://zuum-studio.github.io/zuum-studio/index.html",
     "static/media/getFetch.cjs": "https://zuum-studio.github.io/zuum-studio/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.ebe501f1.css.map": "https://zuum-studio.github.io/zuum-studio/static/css/main.ebe501f1.css.map",
-    "main.71071498.js.map": "https://zuum-studio.github.io/zuum-studio/static/js/main.71071498.js.map",
+    "main.9770e050.js.map": "https://zuum-studio.github.io/zuum-studio/static/js/main.9770e050.js.map",
     "787.8d439a04.chunk.js.map": "https://zuum-studio.github.io/zuum-studio/static/js/787.8d439a04.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ebe501f1.css",
-    "static/js/main.71071498.js"
+    "static/js/main.9770e050.js"
   ]
 }
