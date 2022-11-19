@@ -1,22 +1,31 @@
-import { IconBrandPinterest, IconBrandInstagram, IconBrandBehance } from '@tabler/icons';
-import { Group, ActionIcon, Tooltip, createStyles, Text } from '@mantine/core';
+import { Group, createStyles, Text } from '@mantine/core';
 import i18n from './i18n';
+import { useState } from 'react';
 
 const useStyles = createStyles((theme) => ({
 
-    icon: {
+    languageOption: {
         color: theme.colors.gray[5],
         '&:hover': {
             color: theme.colors.gray[8],
             cursor: 'pointer',
         }
     },
+
+    languageOptionActive: {
+        textDecoration: 'underline'
+    },
     
 }));
 
 export function LanguageChooser() {
     const { classes, cx } = useStyles();
-    const iconSize = 18
+    const [active, setActive] = useState(i18n.language);
+
+    function setLanguage(code: string): void {
+        i18n.changeLanguage(code)
+        setActive(code)
+    }
 
     return (
         <Group spacing="xs">
@@ -30,11 +39,11 @@ export function LanguageChooser() {
         displayName: string
     }
     
-    //TODO wyglad buttonow do zmiany jezyka
     function LanguageChooserItem(props: LanguageChooserItemProps) {
         return (
-            <Text onClick={() => i18n.changeLanguage(props.code)}>{props.displayName}</Text>
+            <Text className={cx(classes.languageOption, { [classes.languageOptionActive]: props.code === active })} onClick={() => setLanguage(props.code)}>{props.displayName}</Text>
         );
-
     }
 }
+
+

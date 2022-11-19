@@ -91,13 +91,6 @@ export function ZuumHeader({ mainLinks, onSelected }: ZuumHeaderProps) {
         </Title></Center>
     ));
 
-    const burgerClick = () => {
-        openModal({
-          title: 'Subscribe to newsletter',
-          children: <>{mainItems}</>,
-        });
-      };
-
     return (
         <Header height={HEADER_HEIGHT} withBorder={false}>
             
@@ -120,6 +113,3 @@ export function ZuumHeader({ mainLinks, onSelected }: ZuumHeaderProps) {
     );
 }
 
-function openModal(arg0: { title: string; children: JSX.Element; }) {
-    throw new Error('Function not implemented.');
-}

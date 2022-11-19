@@ -94,7 +94,8 @@ export default function App() {
     }}
     >
         <Suspense fallback={<Loading />}>
-          <Affix position={{ top: 10, right: 10 }}><Group><LanguageChooser /><Socials /></Group></Affix>
+          <Affix position={{ top: 10, right: 10 }}><Socials /></Affix>
+          <Affix position={{ top: 10, left: 50 }}><LanguageChooser /></Affix>
           <Box className={classes.main}>
             <Collapse in={noneMenuItemSelected()} transitionDuration={2000}>
               <Box className={classes.filler}>

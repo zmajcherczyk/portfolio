@@ -7,7 +7,8 @@ const useStyles = createStyles((theme) => ({
 
 export function AboutMe() {
     const { classes, cx } = useStyles();
-    const { t } = useTranslation(); //TODO to samo na innych stronach + wykorzystanie slownika jak ponizej - {t("aboutMeTitle")}
+    const { t } = useTranslation(); //TODO to samo na innych stronach + wykorzystanie slownika jak ponizej - {t("aboutMeTitle")} - tlumaczenia sa w public/locales/...
+    // pamietac o style={{ whiteSpace: "pre-line" }} dla dlugich tekstow z lamaniem linii (\n)
     // TODO przyklad responsywnosci ponizej - span={6} zamieniony na lg={6} md={12} (na srednim ekranie zajmie caly wiersz, na duzym pol)
     // pobawic sie szerokoscia na innych stronach i dopasowac pod telefon wedle uznania (F12 w przegladarce i kliknac w ikone telefonu w lewym gornym rogu)
     return (
