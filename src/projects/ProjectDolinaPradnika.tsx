@@ -65,7 +65,7 @@ export function ProjectDolinaPradnika() {
                 </Grid.Col> 
                 <Grid.Col xs={1}></Grid.Col>
                 <Grid.Col xs={10}>
-                    <DynamicImage src="images/projects/dolina_pradnika/perspektywa.jpg" hoverSrc="images/projects/dolina_pradnika/schematZieleni.jpg" />
+                    <StaticImage src="images/projects/dolina_pradnika/perspektywa.jpg" />
                     </Grid.Col>
                 <Grid.Col xs={12}>
                     <Image
