@@ -2,6 +2,8 @@ import { Box, Image, createStyles, Grid, Skeleton, Text, Center, Title, } from "
 import { Carousel } from "@mantine/carousel";
 import { IconArrowRight, IconCaretLeft, IconCaretRight } from "@tabler/icons";
 import { MainImageTitle } from "../common/MainImageTitle";
+import { DynamicImage } from "../common/DynamicImage";
+import { StaticImage } from "../common/StaticImage";
 
 const child = <Skeleton height={400} animate={false} />;
 const useStyles = createStyles((theme) => ({
@@ -44,25 +46,13 @@ export function ProjectDolinaPradnika() {
                         slidesToScroll={1}
                     >
                         <Carousel.Slide> 
-                                <Image
-                                width="100%"
-                                radius="md"
-                                src="images/projects/dolina_pradnika/schematFunkcjonalny.jpg"
-                                alt="me"/>
+                            <StaticImage src="images/projects/dolina_pradnika/schematFunkcjonalny.jpg"/>
                         </Carousel.Slide>
                         <Carousel.Slide> 
-                                <Image
-                                width="100%"
-                                radius="md"
-                                src="images/projects/dolina_pradnika/schematKomunikacji.jpg"
-                                alt="me"/>
+                            <StaticImage src="images/projects/dolina_pradnika/schematKomunikacji.jpg"/>
                         </Carousel.Slide>
                         <Carousel.Slide> 
-                                <Image
-                                width="100%"
-                                radius="md"
-                                src="images/projects/dolina_pradnika/schematZieleni.jpg"
-                                alt="me"/>
+                            <StaticImage src="images/projects/dolina_pradnika/schematZieleni.jpg"/>
                         </Carousel.Slide>
                     </Carousel>
                 </Grid.Col>
@@ -75,11 +65,7 @@ export function ProjectDolinaPradnika() {
                 </Grid.Col> 
                 <Grid.Col xs={1}></Grid.Col>
                 <Grid.Col xs={10}>
-                    <Image
-                                width="100%"
-                                radius="md"
-                                src="images/projects/dolina_pradnika/perspektywa.jpg"
-                                alt="me"/>
+                    <DynamicImage src="images/projects/dolina_pradnika/perspektywa.jpg" hoverSrc="images/projects/dolina_pradnika/schematZieleni.jpg" />
                     </Grid.Col>
                 <Grid.Col xs={12}>
                     <Image

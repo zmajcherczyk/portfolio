@@ -1,5 +1,6 @@
 import { Text, Box, Image, Center, Stack, createStyles } from "@mantine/core";
 import { useState } from "react";
+import { StaticImage } from "../StaticImage";
 
 const useStyles = createStyles((theme) => ({
     itemImage: {
@@ -41,11 +42,10 @@ export function CategoryItem(props: CategoryItemProps) {
 
     return (
             <Box className={cx(classes.itemImage, {[classes.activeItemImage]: props.isActive})}>
-                <Stack>
-                        <Image 
+                <Stack onClick={() => props.onSelected()}>
+                        <StaticImage 
                             height={250}
                             src={props.imageSrc}
-                            onClick={() => props.onSelected()}
                         />
                         <Center><Text align="center">{props.description}</Text></Center>
                 </Stack>

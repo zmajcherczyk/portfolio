@@ -1,5 +1,6 @@
 import { Text, Image, createStyles, Grid, Center, Stack } from "@mantine/core";
 import { useTranslation } from "react-i18next";
+import { StaticImage } from "../common/StaticImage";
 
 const useStyles = createStyles((theme) => ({
 
@@ -15,12 +16,7 @@ export function AboutMe() {
         <Grid>
             <Grid.Col lg={6} md={12}>
                 <Center sx={{height: "100%"}}>
-                    <Image
-                        width="70%"
-                        radius="md"
-                        src="images/AboutMe/foto2.jpg"
-                        alt="me"
-                    />
+                    <StaticImage width="70%" src="images/AboutMe/foto2.jpg"/>
                 </Center>
             </Grid.Col>
             <Grid.Col lg={6} md={12}>
