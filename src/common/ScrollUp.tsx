@@ -34,16 +34,16 @@ export class ScrollUp extends React.Component<ScrollUpProps, ScrollUpState> {
     }, { passive: true });
   }
 
-  //TODO wyglad i pozycja przycisku "do gory"
+  // wyglad i pozycja przycisku "do gory"
   render() {
     return (
-      <Affix position={{ bottom: 20, right: 20 }}>
+      <Affix position={{ bottom: 20, right: 50 }}>
         <Box id="scroll-value"></Box>
         <Transition transition="slide-up" mounted={this.state.scrollThresholdReached}>
           
           {(transitionStyles) => (
         
-            <Button
+            <Button variant="subtle" color="gray" radius="xs" compact uppercase 
               leftIcon={<IconArrowUp size={16} />}
               style={transitionStyles}
               onClick={() => {

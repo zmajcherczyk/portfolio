@@ -13,10 +13,9 @@ const useStyles = createStyles((theme) => ({
 export function Footer() {
     const { classes, cx } = useStyles();
 
-    //TODO footer
     return (
         <Box className={classes.footer}>
-            <Text align="center">Zuzanna Majcherczyk 2022 © ℗ ® ™</Text>
+            <Text align="center">© Zuzanna Majcherczyk {new Date().getFullYear()} (Mateusz Czesław Kulpa - tworzenie, projketowanie, testowanie, wdrażanie i implementacja oprogramowania, sieci oraz systemów komputerowych w praktyce i w teorii)</Text>
         </Box>
     );
 }
