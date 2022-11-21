@@ -43,7 +43,7 @@ body::-webkit-scrollbar {
   overflow: hidden !important;
 }
 
-/* //TODO tu mozna dopasowac odstep strzaleczek na karuzel - warto sprawdzic wszystkie widoki na roznych szerokosciach ekranu 
+/* // tu mozna dopasowac odstep strzaleczek na karuzel - warto sprawdzic wszystkie widoki na roznych szerokosciach ekranu 
   (F12 w przegladarce i kliknac w ikone telefonu w lewym gornym rogu)
   mozna procentowo i na sztywno (px)
 */

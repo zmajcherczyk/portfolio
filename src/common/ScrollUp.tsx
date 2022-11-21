@@ -43,7 +43,7 @@ export class ScrollUp extends React.Component<ScrollUpProps, ScrollUpState> {
           
           {(transitionStyles) => (
         
-            <Button variant="subtle" color="gray" radius="xs" compact uppercase 
+            <Button variant="white" color="gray" radius="xs" compact uppercase 
               leftIcon={<IconArrowUp size={16} />}
               style={transitionStyles}
               onClick={() => {

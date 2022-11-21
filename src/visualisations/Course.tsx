@@ -7,24 +7,19 @@ export function Course() {
         <Box>
             <Grid>
                 <Grid.Col span={12}>
-                <Center sx={{height: "100%", width: "100%"}}>
-                    <Image
-                        width="90%"
-                        radius="md"
-                        src="images/visualisations/course/kurs_certyfikat.jpg"
-                        alt="me"/>
-                </Center>
+                            <Image
+                                src="images/visualisations/course/kurs_certyfikat.jpg"/>
                 </Grid.Col>
-                <Grid.Col span={12}><Box sx={{height: "100px"}}></Box></Grid.Col>
-                <Grid.Col span={3}>
+                <Grid.Col xs={12}><Box sx={{height: "100px"}}></Box></Grid.Col>
+                <Grid.Col xs={3}>
                     <Image
                         width="100%"
                         radius="md"
                         src="images/visualisations/course/kurs_interior.jpg"
                         alt="me"
                     /></Grid.Col>
-                <Grid.Col span={1}></Grid.Col>
-                <Grid.Col span={4}> 
+                <Grid.Col xs={1}></Grid.Col>
+                <Grid.Col xs={4}> 
                     <Center sx={{height: "100%"}}>
                         <Image
                             width="100%"
@@ -33,15 +28,15 @@ export function Course() {
                             alt="me"
                     /></Center>
                 </Grid.Col>
-                <Grid.Col span={1}></Grid.Col>
-                <Grid.Col span={3}>
+                <Grid.Col xs={1}></Grid.Col>
+                <Grid.Col xs={3}>
                     <Image
                         width="100%"
                         radius="md"
                         src="images/visualisations/course/kurs_closeup.jpg"
                         alt="me"
                 /></Grid.Col>
-                <Grid.Col span={12}><Box sx={{height: "100px"}}></Box></Grid.Col> 
+                <Grid.Col xs={12}><Box sx={{height: "100px"}}></Box></Grid.Col> 
             </Grid>
         </Box>
     );

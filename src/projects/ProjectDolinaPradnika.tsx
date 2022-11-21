@@ -4,6 +4,7 @@ import { IconArrowRight, IconCaretLeft, IconCaretRight } from "@tabler/icons";
 import { MainImageTitle } from "../common/MainImageTitle";
 import { DynamicImage } from "../common/DynamicImage";
 import { StaticImage } from "../common/StaticImage";
+import { useTranslation } from "react-i18next";
 
 const child = <Skeleton height={400} animate={false} />;
 const useStyles = createStyles((theme) => ({
@@ -12,6 +13,7 @@ const useStyles = createStyles((theme) => ({
 
 export function ProjectDolinaPradnika() {
     const { classes, cx } = useStyles();
+    const { t } = useTranslation();
 
     return (
         <Box> 
@@ -27,9 +29,7 @@ export function ProjectDolinaPradnika() {
                 <Grid.Col span={12}><Box sx={{height: "50px"}}></Box></Grid.Col>
                 <Grid.Col xs={12}> 
                     <Text align="justify">
-                        Projekt miał na celu stworzenie koncepcji urbanistyczno - architektonicznej obszaru zlokalizowanego w północnej części Krakowa (Prądnik Biały i wieś Zielonki). 
-                        Teren przeznaczony jest pod zabudowę mieszkaniową wielorodzinną oraz towarzyszącą jej zabudowę usługową. 
-                        Głównym założeniem projektu było zachowanie istniejącego użytku ekologicznego “Dolina Prądnika” i połączenie go z nową funkcją mieszkaniową. 
+                    {t("projectDolinaPradnikaDescription")} 
                     </Text>
                 </Grid.Col> 
                 <Grid.Col span={12}><Box sx={{height: "50px"}}></Box></Grid.Col>
