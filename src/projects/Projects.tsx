@@ -1,6 +1,7 @@
 
 import { Box, Center, createStyles, Image, SimpleGrid } from "@mantine/core";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Categories } from "../common/categories/Categories";
 import { ProjectDolinaPradnika } from "./ProjectDolinaPradnika";
 import { ProjectOsrodekTerapii } from "./ProjectOsrodekTerapii";
@@ -15,6 +16,7 @@ const useStyles = createStyles((theme) => ({
 export function Projects() {
     const { classes, cx } = useStyles();
     const [active, setActive] = useState('');
+    const { t } = useTranslation();
 
     const contentMap = new Map<string, JSX.Element>([
         ["project-dolina-pradnika", <ProjectDolinaPradnika/>],
@@ -31,12 +33,12 @@ export function Projects() {
                     {
                         imageSrc: "images/projects/dolina_pradnika/finalnyKadr.jpg",
                         link: "project-dolina-pradnika",
-                        description: "Wielorodzinny zespół mieszkaniowy w dolinie prądnika",
+                        description: t("projectDolinaPradnikaTitle1"),
                     },
                     {
                         imageSrc: "images/projects/osrodek_terapii/frontViz.jpg",
                         link: "project-osrodek-terapii",
-                        description: "Ośrodek Terapii dla Osób Dorosłych z Autyzmem w Krakowie"
+                        description: t("projectOsrodekTerapiiTitle1"),
                     },
                     {
                         imageSrc: "https://assets.gamepur.com/wp-content/uploads/2022/05/15130111/Barn-in-Minecraft.jpg",
@@ -46,7 +48,7 @@ export function Projects() {
                     {
                         imageSrc: "images/projects/pawilon/vizMain.jpg",
                         link: "project-pawilon",
-                        description: "PAWILON ARCHEOLOGICZNY W WIŚLICY"
+                        description: t("projectPawilonTitle1"),
                     },
                 ],
                 carousel: true,

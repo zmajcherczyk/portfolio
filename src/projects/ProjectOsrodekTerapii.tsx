@@ -1,7 +1,8 @@
-import { Box, Image, createStyles, Grid, Skeleton, Text, Center } from "@mantine/core";
+import { Box, Image, createStyles, Grid, Skeleton, Text, Center, Title } from "@mantine/core";
 import { Carousel } from "@mantine/carousel";
 import { IconArrowRight, IconCaretLeft, IconCaretRight } from "@tabler/icons";
 import { MainImageTitle } from "../common/MainImageTitle";
+import { useTranslation } from "react-i18next";
 
 const child = <Skeleton height={400} animate={false} />;
 const useStyles = createStyles((theme) => ({
@@ -10,27 +11,21 @@ const useStyles = createStyles((theme) => ({
 
 export function ProjectOsrodekTerapii() {
     const { classes, cx } = useStyles();
+    const { t } = useTranslation();
 
     return (
         <Box> 
             <Grid>
                 <Grid.Col span={12}><Box sx={{height: "100px"}}></Box></Grid.Col>
                 <Grid.Col xs={12}>
-                    <MainImageTitle title="OŚRODEK TERAPII DLA OSÓB DOROSŁYCH Z AUTYZMEM W KRAKOWIE" description1="STOPIEŃ II, ROK II, SEMESTR III, ROK AKADEMICKI 2020/2021" 
-                    subtitle="PRACA DYPLOMOWA MAGISTERSKA" image="images/projects/osrodek_terapii/mainViz.jpg" 
-                    description2="KATEDRA URBANISTYKI I ARCHITEKTURY STRUKTUR MIEJSKICH A-9" description3="PROMOTOR: DR INŻ. ARCH. ERNESTYNA SZPAKOWSKA - LORANC" description4=""></MainImageTitle>
+                    <MainImageTitle title={t("projectOsrodekTerapiiTitle1")} description1={t("projectOsrodekTerapiiTitle2")} 
+                    subtitle={t("projectOsrodekTerapiiTitle3")} image="images/projects/osrodek_terapii/mainViz.jpg" 
+                    description2={t("projectOsrodekTerapiiTitle4")}></MainImageTitle>
                 </Grid.Col>   
                 <Grid.Col span={12}><Box sx={{height: "50px"}}></Box></Grid.Col>
                 <Grid.Col xs={12}> 
                     <Text align="justify">
-                    Projekt zakładał stworzenie przestrzeni przeznaczonej dla osób dorosłych z autyzmem. 
-                    Jest zlokalizowany w Polsce, w Krakowie,w dzielnicy VIII Dębniki, przy ulicy Skotnickiej. 
-                    Projektowany obiekt jest podzielony na 3 funkcje główne: terapeutyczną, warsztatową i mieszkaniową.
-                    Każda z nich jest połączona przejściami (korytarzami) które umożliwiają spokojne dostosowanie się pacjenta na zmianę otoczenia.
-                    Dodatkowo w każdej części budynku znajduję się odpowiednia ilość pomieszczeń do wyciszenia. 
-                    W projekcie nie zabrakło również terenów zielonych : patio ogólnodostępne, patio w części mieszkalnej, wybieg dla zwierząt, ogród sensoryczny i niewielki park. 
-                    Działka na której znajduje się ośrodek jest ogrodzona. 
-
+                    {t("projectOsrodekTerapiiDescription1")}
                     </Text>
                 </Grid.Col> 
                 <Grid.Col span={12}><Box sx={{height: "50px"}}></Box></Grid.Col>
@@ -71,7 +66,7 @@ export function ProjectOsrodekTerapii() {
                 <Grid.Col span={7}>
                     <Center sx={{height: "100%", width: "100%" }}>
                         <Text align="justify">
-                        Analizy terenu wykonane przed przystąpieniem do projektowania.
+                        {t("projectAnalysisDescription")}
                         </Text>
                     </Center>
                 </Grid.Col> 
@@ -142,21 +137,21 @@ export function ProjectOsrodekTerapii() {
                 <Grid.Col xs={4}> 
                     <Center>
                         <Text align="justify">
-                            RZUT POZIOMU -1
+                        {t("projectOsrodekTerapiiDescription2")}
                         </Text>
                     </Center>
                 </Grid.Col>
                 <Grid.Col xs={4}> 
                     <Center>
                         <Text align="justify">
-                            RZUT PPARTERU
+                        {t("projectOsrodekTerapiiDescription3")}
                         </Text>
                     </Center>
                 </Grid.Col>
                 <Grid.Col xs={4}> 
                     <Center>
                         <Text align="justify">
-                            RZUT PIĘTRA
+                        {t("projectOsrodekTerapiiDescription4")}
                         </Text>
                     </Center>
                 </Grid.Col>
@@ -288,11 +283,12 @@ export function ProjectOsrodekTerapii() {
                 <Grid.Col span={12}><Box sx={{height: "50px"}}></Box></Grid.Col> 
                 <Grid.Col xs={12}> 
                     <Center>
-                        <Text align="justify">
-                            PROJEKT PLANSZ PREZENTUJĄCYCH CAŁY ZAKRES PROJEKTU
-                        </Text>
+                        <Title align="justify" size={20}>
+                        {t("projectBoardsDescription")}
+                        </Title>
                     </Center>
                 </Grid.Col>
+                <Grid.Col span={12}><Box sx={{height: "20px"}}></Box></Grid.Col>
                 <Grid.Col xs={12}>
                     <Carousel
                         withIndicators

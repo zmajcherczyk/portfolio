@@ -20,16 +20,14 @@ export function ProjectDolinaPradnika() {
             <Grid>
                 <Grid.Col span={12}><Box sx={{height: "100px"}}></Box></Grid.Col>
                 <Grid.Col xs={12}>
-                    <MainImageTitle title="WIELORODZINNY ZESPÓŁ MIESZKANIOWY W DOLINIE PRĄDNIKA" description1="STOPIEŃ II, ROK I, SEMESTR I, ROK AKADEMICKI 2019/2020" 
-                    subtitle="" image="images/projects/dolina_pradnika/finalnyKadr.jpg" 
-                    description2="INSTYTUT PROJEKTOWANIA URBANISTYCZNEGO A-31" 
-                    description3="PROWADZĄCY PRZEDMIOT: DR HAB. INŻ. ARCH. MARIUSZ TWARDOWSKI, PROWADZĄCY GRUPĘ: MGR INŻ. ARCH. JULIAN FRANTA"
-                    description4="PROJEKT WYKONANY Z MGR INŻ. ARCH. IWONĄ KOPTĄ"></MainImageTitle>
+                    <MainImageTitle title={t("projectDolinaPradnikaTitle1")} description1={t("projectDolinaPradnikaTitle2")} 
+                    subtitle={t("projectDolinaPradnikaTitle1")} image="images/projects/dolina_pradnika/finalnyKadr.jpg" 
+                    description2={t("projectDolinaPradnikaTitle3")}></MainImageTitle>
                 </Grid.Col>   
                 <Grid.Col span={12}><Box sx={{height: "50px"}}></Box></Grid.Col>
                 <Grid.Col xs={12}> 
                     <Text align="justify">
-                    {t("projectDolinaPradnikaDescription")} 
+                    {t("projectDolinaPradnikaDescription1")} 
                     </Text>
                 </Grid.Col> 
                 <Grid.Col span={12}><Box sx={{height: "50px"}}></Box></Grid.Col>
@@ -59,7 +57,7 @@ export function ProjectDolinaPradnika() {
                 <Grid.Col span={6}>
                     <Center sx={{height: "100%", width: "100%" }}>
                         <Text align="justify">
-                        Analizy terenu wykonane przed przystąpieniem do projektowania.
+                        {t("projectAnalysisDescription")}
                         </Text>
                     </Center>
                 </Grid.Col> 
@@ -84,7 +82,7 @@ export function ProjectDolinaPradnika() {
                 <Grid.Col span={12}><Box sx={{height: "50px"}}></Box></Grid.Col>
                 <Grid.Col xs={12}> 
                     <Text align="justify">
-                        Dodatkowo indywidualnie do opracowania był projekt wybranego kwartału zabudowy który znajdował się w projekcie.
+                        {t("projectDolinaPradnikaDescription2")}
                     </Text>
                 </Grid.Col>
                 <Grid.Col span={12}><Box sx={{height: "50px"}}></Box></Grid.Col> 
@@ -189,11 +187,11 @@ export function ProjectDolinaPradnika() {
                 <Grid.Col xs={12}> 
                     <Center>
                         <Title align="justify" size={20}>
-                            PROJEKT PLANSZ PREZENTUJĄCYCH CAŁY ZAKRES PROJEKTU
+                        {t("projectBoardsDescription")}
                         </Title>
                     </Center>
                 </Grid.Col>
-                <Grid.Col span={12}><Box sx={{height: "50px"}}></Box></Grid.Col> 
+                <Grid.Col span={12}><Box sx={{height: "20px"}}></Box></Grid.Col> 
                 <Grid.Col xs={12}>
                     <Carousel
                         withIndicators

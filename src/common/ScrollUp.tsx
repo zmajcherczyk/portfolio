@@ -2,6 +2,7 @@ import { IconArrowUp } from '@tabler/icons';
 import { useWindowScroll } from '@mantine/hooks';
 import { Affix, Box, Button, Text, Transition } from '@mantine/core';
 import React, { useRef, useState } from 'react';
+import { t } from 'i18next';
 
 export const SCROLLABLE_CONTENT_ID = "scrollable-content-id"
 const SCROLL_UP_THRESHOLD = 500
@@ -51,7 +52,7 @@ export class ScrollUp extends React.Component<ScrollUpProps, ScrollUpState> {
               }
             }
             >
-              Do góry
+              {t("button")}
             </Button>
           )}
         </Transition>

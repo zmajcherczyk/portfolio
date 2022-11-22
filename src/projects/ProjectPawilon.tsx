@@ -2,6 +2,8 @@ import { Box, Image, createStyles, Grid, Skeleton, Text, Center, Title, } from "
 import { Carousel } from "@mantine/carousel";
 import { IconArrowRight, IconCaretLeft, IconCaretRight } from "@tabler/icons";
 import { MainImageTitle } from "../common/MainImageTitle";
+import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 const child = <Skeleton height={400} animate={false} />;
 const useStyles = createStyles((theme) => ({
@@ -10,25 +12,21 @@ const useStyles = createStyles((theme) => ({
 
 export function ProjectPawilon() {
     const { classes, cx } = useStyles();
+    const { t } = useTranslation();
 
     return (
         <Box> 
             <Grid>
                 <Grid.Col span={12}><Box sx={{height: "100px"}}></Box></Grid.Col>
                 <Grid.Col xs={12}>
-                    <MainImageTitle title="PAWILON ARCHEOLOGICZNY W WIŚLICY" description1="STOPIEŃ II, ROK I, SEMESTR I, ROK AKADEMICKI 2019/2020" 
+                    <MainImageTitle title={t("projectPawilonTitle1")} description1={t("projectPawilonTitle2")}
                     subtitle="" image="images/projects/pawilon/vizMain.jpg" 
-                    description2="KATEDRA HISTORII ARCHITEKTURY I KONSERWACJI ZABYTKÓW" 
-                    description3="PROWADZĄCY PRZEDMIOT: PROF. ZW. DR. HAB. INŻ. ARCH. ANDRZEJ KADŁUCZKA, PROWADZĄCA GRUPĘ: MGR INŻ. ARCH. MARTA STACHURSKA"
-                    description4=""></MainImageTitle>
+                    description2={t("projectPawilonTitle3")}></MainImageTitle>
                 </Grid.Col>   
                 <Grid.Col span={12}><Box sx={{height: "50px"}}></Box></Grid.Col>
                 <Grid.Col xs={12}> 
                     <Text align="justify">
-                    Głównym założeniem projektu była rewitalizacja Pawilonu Archeologicznego w Wiślicy. 
-                    Obecnie obiekt posiada tylko jedną salę wystawową która zawiera główny zabytek eksponowany w pawilonie. 
-                    Brakuje funkcji towarzyszących takich jak sanitariaty, pomieszczenia socjalne oraz hol wejściowy. 
-                    Dzięki powiększeniu działki uzyskałam możliwość dodania wyżej wymienionych funkcji oraz powiększyć obiekt o jeszcze jedną salę wystawową.  
+                        {t("projectPawilonDescription1")}
                     </Text>
                 </Grid.Col> 
                 <Grid.Col span={12}><Box sx={{height: "50px"}}></Box></Grid.Col>
@@ -70,7 +68,7 @@ export function ProjectPawilon() {
                 <Grid.Col span={6}>
                     <Center sx={{height: "100%", width: "100%" }}>
                         <Text align="justify">
-                        Analizy terenu wykonane przed przystąpieniem do projektowania.
+                            {t("projectAnalysisDescription")}
                         </Text>
                     </Center>
                 </Grid.Col> 
@@ -219,11 +217,11 @@ export function ProjectPawilon() {
                 <Grid.Col xs={12}> 
                     <Center>
                         <Title align="justify" size={20}>
-                            PROJEKT PLANSZ PREZENTUJĄCYCH CAŁY ZAKRES PROJEKTU
+                        {t("projectBoardsDescription")}
                         </Title>
                     </Center>
                 </Grid.Col>
-                <Grid.Col span={12}><Box sx={{height: "50px"}}></Box></Grid.Col> 
+                <Grid.Col span={12}><Box sx={{height: "20px"}}></Box></Grid.Col> 
                 <Grid.Col xs={12}>
                     <Carousel
                         withIndicators
