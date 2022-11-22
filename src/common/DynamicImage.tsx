@@ -24,10 +24,16 @@ interface DescriptionOverlayProps {
 
 function DescriptionOverlay(props: DescriptionOverlayProps) {
     return (
-        <Overlay opacity={1.0} color="rgba(0,0,0,0.0)">
-            <Stack justify="flex-end" sx={{ height: "100%", marginLeft: "5px" }}>
-                <Text size={20}>{props.description}</Text>
+        <Overlay opacity={1.0} color="rgba(0, 0, 0, 0.0)" sx={{padding: "10px"}}>
+            <Stack hidden={!props.description} justify="flex-end" sx={{ height: "100%"}}>
+                <Box  sx={{background: "rgba(0, 0, 0, 0.3)", width: "50%", padding: "10px"}}>
+                    <Text size={14} color="white" weight={700}>{props.description}</Text>
+                </Box>
             </Stack>
         </Overlay>
     );
+}
+
+function useStyles(): { classes: any; cx: any; } {
+    throw new Error('Function not implemented.');
 }

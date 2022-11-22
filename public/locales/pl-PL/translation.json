@@ -5,31 +5,30 @@
     "projectBoardsDescription": "PROJEKT PLANSZ PREZENTUJĄCYCH CAŁY ZAKRES PROJEKTU",
     "projectAnalysisDescription": "Analizy terenu wykonane przed przystąpieniem do projektowania.",
 
-
     "aboutMe": "O mnie",
     "visualisations": "Wizualizacje",
     "projects": "Projekty",
 
-
     "aboutMeTitle": "Cześć, mam na imię Zuza.",
     "aboutMeDescription": "Ukończyłam Architekturę i Urbanistykę na Politechnice Krakowskiej. W trakcie studiów miałam okazję uczyć się w Stambule i Las Palmas. Od 1,5 roku zdobywałam doświadczenie jako architekt wnętrz w biurze projektowym studio hex.\nMoim zadaniem było tworzenie dokumentacji projektowej, moodboardów, modeli 3d/wizualizacji, przeprowadzanie inwentaryzacji oraz pomoc w doborze materiałów.\n\nWe wnętrzach najlepiej odnajduję się w stylu vintage. Jednak tworzenie w stylu klasycznym, rustykalnym czy nowoczesnym nie jest mi obce. Natomiast w architekturze cenię minimalizm, harmonię z otoczeniem i przemyślany dobór materiałów.\n\nProgramy w których pracuję: ArchiCAD, AutoCAD, LibreCAD, Adobe Photoshop, SketchUp + V-ray, 3ds Max + Corona.",
     
-
     "visInteriorTitle1": "WNĘTRZA",
-
+    "visInteriorDescription01": "WIZUALIZACJA SYPIALNI\nprojekt własny",
+    "visInteriorDescription02": "WIZUALIZACJA ŁAZIENKI\nprojekt własny",
+    "visInteriorDescription03": "WIZUALIZACJA WYKONANA NA KURSIE\nstworzona na wzór zdjęcia wnętrza “Willanowa”- projekt biura Colombe",
+    "visInteriorDescription04": "WIZUALIZACJA WYKONANA NA KURSIE",
     
     "visExteriorTitle1": "EXTERIORY",
-
+    "visExteriorDescription01": "WIZUALIZACJA WYKONANA NA KURSIE, INSPIROWANA ZDJĘCIEM PROJEKTU YANGCHENG LAKE VILLAS",
+    "visExteriorDescription02": "WIZUALIZACJA PROJEKTU ZE STUDIÓW Z ROKU 2019/2020",
 
     "visCourseTitle1": "KURS",
-
     
     "projectDolinaPradnikaTitle1":"WIELORODZINNY ZESPÓŁ MIESZKANIOWY W DOLINIE PRĄDNIKA",
     "projectDolinaPradnikaTitle2":"STOPIEŃ II, ROK I, SEMESTR I, ROK AKADEMICKI 2019/2020",
     "projectDolinaPradnikaTitle3":"INSTYTUT PROJEKTOWANIA URBANISTYCZNEGO A-31\n\n PROWADZĄCY PRZEDMIOT: DR HAB. INŻ. ARCH. MARIUSZ TWARDOWSKI\n PROWADZĄCY GRUPĘ: MGR INŻ. ARCH. JULIAN FRANTA\n\n PROJEKT WYKONANY Z MGR INŻ. ARCH. IWONĄ KOPTĄ",
     "projectDolinaPradnikaDescription1": "Projekt miał na celu stworzenie koncepcji urbanistyczno - architektonicznej obszaru zlokalizowanego w północnej części Krakowa (Prądnik Biały i wieś Zielonki). Teren przeznaczony jest pod zabudowę mieszkaniową wielorodzinną oraz towarzyszącą jej zabudowę usługową. Głównym założeniem projektu było zachowanie istniejącego użytku ekologicznego “Dolina Prądnika” i połączenie go z nową funkcją mieszkaniową.",
     "projectDolinaPradnikaDescription2":"Dodatkowo indywidualnie do opracowania był projekt wybranego kwartału zabudowy który znajdował się w projekcie.",
-
 
     "projectOsrodekTerapiiTitle1": "OŚRODEK TERAPII DLA OSÓB DOROSŁYCH Z AUTYZMEM W KRAKOWIE",
     "projectOsrodekTerapiiTitle2": "STOPIEŃ II, ROK II, SEMESTR III, ROK AKADEMICKI 2020/2021",
@@ -40,11 +39,9 @@
     "projectOsrodekTerapiiDescription3": "RZUT PARTERU",
     "projectOsrodekTerapiiDescription4": "RZUT PIĘTRA",
 
-
     "projectPawilonTitle1": "PAWILON ARCHEOLOGICZNY W WIŚLICY",
     "projectPawilonTitle2": "STOPIEŃ II, ROK I, SEMESTR I, ROK AKADEMICKI 2019/2020",
     "projectPawilonTitle3": "KATEDRA HISTORII ARCHITEKTURY I KONSERWACJI ZABYTKÓW\n\n PROWADZĄCY PRZEDMIOT: PROF. ZW. DR. HAB. INŻ. ARCH. ANDRZEJ KADŁUCZKA\n PROWADZĄCA GRUPĘ: MGR INŻ. ARCH. mARTA STACHURSKA",
     "projectPawilonDescription1": "Głównym założeniem projektu była rewitalizacja Pawilonu Archeologicznego w Wiślicy. Obecnie obiekt posiada tylko jedną salę wystawową która zawiera główny zabytek eksponowany w pawilonie. Brakuje funkcji towarzyszących takich jak sanitariaty, pomieszczenia socjalne oraz hol wejściowy. Dzięki powiększeniu działki uzyskałam możliwość dodania wyżej wymienionych funkcji oraz powiększyć obiekt o jeszcze jedną salę wystawową. "
-
 
 }
