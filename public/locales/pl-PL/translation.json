@@ -1,15 +1,28 @@
 {
-    "aboutMe": "O mnie",
-    "projects": "Projekty",
-    "visualisations": "Wizualizacje",
-
+    
+    
     "button": "DO GÓRY",
     "projectBoardsDescription": "PROJEKT PLANSZ PREZENTUJĄCYCH CAŁY ZAKRES PROJEKTU",
     "projectAnalysisDescription": "Analizy terenu wykonane przed przystąpieniem do projektowania.",
 
+
+    "aboutMe": "O mnie",
+    "visualisations": "Wizualizacje",
+    "projects": "Projekty",
+
+
     "aboutMeTitle": "Cześć, mam na imię Zuza.",
     "aboutMeDescription": "Ukończyłam Architekturę i Urbanistykę na Politechnice Krakowskiej. W trakcie studiów miałam okazję uczyć się w Stambule i Las Palmas. Od 1,5 roku zdobywałam doświadczenie jako architekt wnętrz w biurze projektowym studio hex.\nMoim zadaniem było tworzenie dokumentacji projektowej, moodboardów, modeli 3d/wizualizacji, przeprowadzanie inwentaryzacji oraz pomoc w doborze materiałów.\n\nWe wnętrzach najlepiej odnajduję się w stylu vintage. Jednak tworzenie w stylu klasycznym, rustykalnym czy nowoczesnym nie jest mi obce. Natomiast w architekturze cenię minimalizm, harmonię z otoczeniem i przemyślany dobór materiałów.\n\nProgramy w których pracuję: ArchiCAD, AutoCAD, LibreCAD, Adobe Photoshop, SketchUp + V-ray, 3ds Max + Corona.",
     
+
+    "visInteriorTitle1": "WNĘTRZA",
+
+    
+    "visExteriorTitle1": "EXTERIORY",
+
+
+    "visCourseTitle1": "KURS",
+
     
     "projectDolinaPradnikaTitle1":"WIELORODZINNY ZESPÓŁ MIESZKANIOWY W DOLINIE PRĄDNIKA",
     "projectDolinaPradnikaTitle2":"STOPIEŃ II, ROK I, SEMESTR I, ROK AKADEMICKI 2019/2020",

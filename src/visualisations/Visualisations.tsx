@@ -1,6 +1,7 @@
 
 import { Box, Center, createStyles, Image, SimpleGrid } from "@mantine/core";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Categories } from "../common/categories/Categories";
 import { Course } from "./Course";
 import { Exterior } from "./Exterior";
@@ -15,6 +16,7 @@ const useStyles = createStyles((theme) => ({
 export function Visualisations() {
     const { classes, cx } = useStyles();
     const [active, setActive] = useState('');
+    const { t } = useTranslation();
 
     const contentMap = new Map<string, JSX.Element>([
         ["interior", <Interior />],
@@ -30,17 +32,17 @@ export function Visualisations() {
                     {
                         imageSrc: "images/visualisations/course/interiory.jpg",
                         link: "interior",
-                        description: "Wnętrza",
+                        description: t("visInteriorTitle1"),
                     },
                     {
                         imageSrc: "images/visualisations/course/exteriory.jpg",
                         link: "exterior",
-                        description: "Exteriory"
+                        description: t("visExteriorTitle1"),
                     },
                     {
                         imageSrc: "images/visualisations/course/kurs.jpg",
                         link: "course",
-                        description: "Kurs"
+                        description: t("visCourseTitle1"),
                     },
                 ],
                 carousel: false,
