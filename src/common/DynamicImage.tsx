@@ -25,8 +25,8 @@ interface DescriptionOverlayProps {
 function DescriptionOverlay(props: DescriptionOverlayProps) {
     return (
         <Overlay opacity={1.0} color="rgba(0,0,0,0.0)">
-            <Stack justify="flex-end" sx={{ height: "100%", marginLeft: "10px" }}>
-                <Text size={30}>{props.description}</Text>
+            <Stack justify="flex-end" sx={{ height: "100%", marginLeft: "5px" }}>
+                <Text size={20}>{props.description}</Text>
             </Stack>
         </Overlay>
     );

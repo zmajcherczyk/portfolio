@@ -1,4 +1,5 @@
 import { Grid, Skeleton, Container, Box, Image, Center, Text } from '@mantine/core';
+import { DynamicImage } from '../common/DynamicImage';
 
 const child = <Skeleton height={350} animate={false} />;
 
@@ -12,30 +13,18 @@ export function Course() {
                 </Grid.Col>
                 <Grid.Col xs={12}><Box sx={{height: "100px"}}></Box></Grid.Col>
                 <Grid.Col xs={3}>
-                    <Image
-                        width="100%"
-                        radius="md"
-                        src="images/visualisations/course/kurs_interior.jpg"
-                        alt="me"
-                    /></Grid.Col>
+                    <DynamicImage src="images/visualisations/course/kurs_interior.jpg" hoverSrc="images/visualisations/course/kurs_interior_MTL.jpg" hoverDescription=""/>
+                    </Grid.Col>
                 <Grid.Col xs={1}></Grid.Col>
                 <Grid.Col xs={4}> 
                     <Center sx={{height: "100%"}}>
-                        <Image
-                            width="100%"
-                            radius="md"
-                            src="images/visualisations/course/kurs_exterior.jpg"
-                            alt="me"
-                    /></Center>
+                    <DynamicImage src="images/visualisations/course/kurs_exterior.jpg" hoverSrc="images/visualisations/course/kurs_exterior_MTL.jpg" hoverDescription=""/>
+                    </Center>
                 </Grid.Col>
                 <Grid.Col xs={1}></Grid.Col>
                 <Grid.Col xs={3}>
-                    <Image
-                        width="100%"
-                        radius="md"
-                        src="images/visualisations/course/kurs_closeup.jpg"
-                        alt="me"
-                /></Grid.Col>
+                    <DynamicImage src="images/visualisations/course/kurs_closeup.jpg" hoverSrc="images/visualisations/course/kurs_closeup_MTL.jpg" hoverDescription=""/>
+                </Grid.Col>
                 <Grid.Col xs={12}><Box sx={{height: "100px"}}></Box></Grid.Col> 
             </Grid>
         </Box>
