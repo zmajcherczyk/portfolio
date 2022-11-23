@@ -6,6 +6,7 @@ interface DynamicImageProps {
     src: string
     hoverSrc: string
     hoverDescription: string
+    width?: string
 }
 
 export function DynamicImage(props: DynamicImageProps) {

@@ -1,5 +1,6 @@
-import { Text, Image, createStyles, Grid, Center, Stack } from "@mantine/core";
+import { Text, Image, createStyles, Grid, Center, Stack, Box } from "@mantine/core";
 import { useTranslation } from "react-i18next";
+import { DynamicImage } from "../common/DynamicImage";
 import { StaticImage } from "../common/StaticImage";
 
 const useStyles = createStyles((theme) => ({
@@ -15,8 +16,8 @@ export function AboutMe() {
     return (
         <Grid>
             <Grid.Col lg={6} md={12}>
-                <Center sx={{height: "100%"}}>
-                    <StaticImage width="70%" src="images/AboutMe/foto2.jpg"/>
+                <Center sx={{height: "100%", width: "70%"}}>
+                <DynamicImage src="images/AboutMe/obrazek.jpg" hoverSrc="images/AboutMe/foto2.jpg" hoverDescription=""/>
                 </Center>
             </Grid.Col>
             <Grid.Col lg={6} md={12}>
@@ -29,6 +30,7 @@ export function AboutMe() {
                     </Text>
                 </Stack>
             </Grid.Col>
+            <Grid.Col span={12}><Box sx={{height: "50px"}}></Box></Grid.Col> 
         </Grid>
     )
 }
