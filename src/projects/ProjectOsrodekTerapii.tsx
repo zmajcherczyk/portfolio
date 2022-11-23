@@ -280,6 +280,44 @@ export function ProjectOsrodekTerapii() {
                                 src="images/projects/osrodek_terapii/elewacja1.jpg"
                                 alt="me"/>
                 </Grid.Col>
+                <Grid.Col xs={12}>
+                    <Carousel
+                        withIndicators
+                        slideSize="100%"
+                        slideGap="md"
+                        loop
+                        // controlSize={25}
+                        previousControlIcon={<IconCaretLeft size={25} fill="black" />}
+                        nextControlIcon={<IconCaretRight size={25} fill="black" />}
+                        align="center"
+                        slidesToScroll={1}
+                    >
+                        <Carousel.Slide> 
+                                <Image
+                                radius="md"
+                                src="images/projects/osrodek_terapii/przekrojAA.jpg"
+                                alt="me"/>
+                        </Carousel.Slide>
+                        <Carousel.Slide> 
+                                <Image
+                                radius="md"
+                                src="images/projects/osrodek_terapii/przekrojBB.jpg"
+                                alt="me"/>
+                        </Carousel.Slide>
+                        <Carousel.Slide> 
+                                <Image
+                                radius="md"
+                                src="images/projects/osrodek_terapii/przekrojCC.jpg"
+                                alt="me"/>
+                        </Carousel.Slide>
+                        <Carousel.Slide> 
+                                <Image
+                                radius="md"
+                                src="images/projects/osrodek_terapii/przekrojDD.jpg"
+                                alt="me"/>
+                        </Carousel.Slide>
+                    </Carousel>
+                </Grid.Col> 
                 <Grid.Col span={12}><Box sx={{height: "50px"}}></Box></Grid.Col> 
                 <Grid.Col xs={12}> 
                     <Center>
