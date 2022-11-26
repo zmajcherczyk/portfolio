@@ -1,9 +1,48 @@
 {
+
+    "button": "UP",
+    "projectBoardsDescription": "PROJECT PRESENTED ON BOARDS",
+    "projectAnalysisDescription": "Site analyzes made before designing.",
+
     "aboutMe": "About me",
     "projects": "Projects",
     "visualisations": "Visualisations",
+     
+    "aboutMeTitle": "Hi my name is Zuza.",
+    "aboutMeDescription": "I graduated from Architecture and Urban Planning at the Cracow University of Technology. During my studies, I had the opportunity to study in Istanbul and Las Palmas. For 1.5 years I have been gaining experience as an interior designer in studio hex.\n My task was to create design documentation, moodboards, 3d models/visualizations, carry out inventory and help in the selection of materials.\n\n I find myself best in vintage style interiors. However, creating in a classic, rustic or modern style is also something I like to do. In architecture  I value minimalism, harmony with the surroundings and a well-thought-out selection of materials.\n\n Programs I work with: ArchiCAD, AutoCAD, LibreCAD, Adobe Photoshop, SketchUp + V-ray, 3ds Max + Corona.",
 
-    "aboutMeTitle": "Haj, maj nejm ys Zuza",
-    "aboutMeDescription": "aj em a gud arkitekt"
+    "visInteriorTitle1": "INTERIORS",
+    "visInteriorDescription01": "BEDROOM VISUALIZATION\nown project",
+    "visInteriorDescription02": "BATHROOM VISUALIZATION\nown project",
+    "visInteriorDescription03": "VISUALIZATION DONE ON THE COURSE\ncreated on the basis of a photo of the interior 'Wilanowa'- design by Colombe studio.",
+    "visInteriorDescription04": "VISUALIZATION DONE ON THE COURSE",
+    
+    "visExteriorTitle1": "EXTERIORS",
+    "visExteriorDescription01": "VISUALIZATION MADE ON THE COURSE, INSPIRED BY A PHOTO OF THE YANGCHENG LAKE VILLAS PROJECT",
+    "visExteriorDescription02": "VISUALIZATION OF THE PROJECT FROM THE STUDIES IN 2019/2020",
+
+    "visCourseTitle1": "COURSE",
+    
+    "projectDolinaPradnikaTitle1":"RESIDENTIAL COMPLEX IN DOLINA PRĄDNIKA",
+    "projectDolinaPradnikaTitle2":"DEGREE II, YEAR I, SEMESTER I, ACADEMIC YEAR 2019/2020",
+    "projectDolinaPradnikaTitle3":"DEPARTMENT OF URBAN PLANNING A-31\n\n PROFESSOR LEADING SUBJECT: DR HAB. INŻ. ARCH. MARIUSZ TWARDOWSKI\n PROFESSOR LEADING GROUP: MGR INŻ. ARCH. JULIAN FRANTA\n\n PROJECT DONE IN COOPERATION WITH MGR INŻ. ARCH. IWONĄ KOPTĄ ",
+    "projectDolinaPradnikaDescription1": "The project was aimed at creating an urban and architectural concept of the area located in the northern part of Krakow (Prądnik Biały and the village of Zielonki).The area is intended for multi-family housing and service development. The main assumption of the project was to preserve the existing ecological area of “Dolina Prądnika” and combine it with a new residential function.",
+    "projectDolinaPradnikaDescription2":"In addition, there was an individual part of project. We had to design quarter of the building, which was included in the project.",
+
+    "projectOsrodekTerapiiTitle1": "THERAPY CENTER FOR ADULTS WITH AUTISM IN CRACOW",
+    "projectOsrodekTerapiiTitle2": "DEGREE II, YEAR II, SEMESTER III, ACADEMIC YEAR 2020/2021",
+    "projectOsrodekTerapiiTitle3": "MASTER'S THESIS",
+    "projectOsrodekTerapiiTitle4": "DEPARTMENT OF URBAN PLANNING AND ARCHITECTURE OF URBAN STRUCTURES A-9\n\n PROMETER: DR INŻ. ARCH. ERNESTYNA SZPAKOWSKA - LORANC",
+    "projectOsrodekTerapiiDescription1": "The aim of the project was to create a space for adults with autism. It is located in Krakow  at Skotnicka Street.The designed facility is divided into 3 main functions: therapeutic, workshop and housing. Each of them is connected by passages (corridors) that allow the patient to calmly adapt to a change in the environment. In addition, in each part of the building there is an appropriate number of “quiet rooms”. The project also includes green areas: a public patio, a patio in the residential part, an animal run, a sensory garden and a small park. The plot on which the resort is located is fenced.",
+    "projectOsrodekTerapiiDescription2": "FLOOR PLAN -1",
+    "projectOsrodekTerapiiDescription3": "GRAUND FLOOR PLAN",
+    "projectOsrodekTerapiiDescription4": "FIRST FLOOR PLAN",
+
+    "projectPawilonTitle1": "ARCHEOLOGICAL PAVILION IN WIŚLICA",
+    "projectPawilonTitle2": "DEGREE II, YEAR I, SEMESTER I, ACADEMIC YEAR 2019/2020",
+    "projectPawilonTitle3": "DEPARTMENT OF HISTORY OF ARCHITECTURE AND MONUMENT PRESERVATION\n\n PROFESSOR LEADING SUBJECT: PROF. ZW. DR. HAB. INŻ. ARCH. ANDRZEJ KADŁUCZKA\n PROFESSOR LEADING GROUP: MGR INŻ. ARCH. MARTA STACHURSKA",
+    "projectPawilonDescription1": "The main assumption of the project was the revitalization of the Archaeological Pavilion in Wiślica. Currently, the building has only one exhibition hall, which contains the main monument exhibited in the pavilion. There are no accompanying functions such as sanitary facilities, social rooms and an entrance hall. Thanks to the enlargement of the plot, I was able to add the above-mentioned functions and enlarge the facility by one more exhibition hall."
+    
+
 
 }
