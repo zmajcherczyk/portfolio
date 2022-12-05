@@ -20,9 +20,9 @@ export function Socials() {
 
     return (
         <Group spacing="xs">
-            <SocialItem icon={<IconBrandPinterest size={iconSize} />} label="PINTEREST" url="https://pinterest.com"/>
+            <SocialItem icon={<IconBrandPinterest size={iconSize} />} label="PINTEREST" url="https://pl.pinterest.com/ZuumStudio/"/>
             <SocialItem icon={<IconBrandInstagram size={iconSize} />} label="INSTAGRAM" url="https://www.instagram.com/zuum.studio/"/>
-            <SocialItem icon={<IconBrandBehance size={iconSize} />} label="BEHANCE" url="https://behance.net"/>
+            <SocialItem icon={<IconBrandBehance size={iconSize} />} label="BEHANCE" url="https://www.behance.net/zuzannamajcherczyk"/>
         </Group>
     )
 
