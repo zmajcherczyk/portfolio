@@ -17,7 +17,7 @@ export function AboutMe() {
         <Grid>
             <Grid.Col lg={6} md={12}>
                 <Center sx={{height: "100%", width: "70%"}}>
-                <DynamicImage src="images/AboutMe/obrazek.jpg" hoverSrc="images/AboutMe/foto2.jpg" hoverDescription=""/>
+                <DynamicImage src="images/AboutMe/foto2.jpg" hoverSrc="images/AboutMe/foto2.jpg" hoverDescription=""/>
                 </Center>
             </Grid.Col>
             <Grid.Col lg={6} md={12}>
