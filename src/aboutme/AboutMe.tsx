@@ -1,4 +1,4 @@
-import { Text, Image, createStyles, Grid, Center, Stack, Box } from "@mantine/core";
+import { Text, Image, createStyles, Grid, Center, Stack, Box, TypographyStylesProvider } from "@mantine/core";
 import { useTranslation } from "react-i18next";
 import { DynamicImage } from "../common/DynamicImage";
 import { StaticImage } from "../common/StaticImage";

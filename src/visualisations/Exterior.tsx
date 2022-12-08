@@ -13,9 +13,13 @@ export function Exterior() {
                 <DynamicImage src="images/visualisations/exteriors/01_kurs.jpg" hoverSrc="images/visualisations/exteriors/01_kurs_mtl.jpg" hoverDescription={t("visExteriorDescription01")}/>
                             </Grid.Col>
                 <Grid.Col xs={7}></Grid.Col>
-                <Grid.Col xs={7}>
+                <Grid.Col xs={6}>
                 <DynamicImage src="images/visualisations/exteriors/02_urb.jpg" hoverSrc="images/visualisations/exteriors/02_urb.jpg" hoverDescription={t("visExteriorDescription02")}/>
                             </Grid.Col>
+                <Grid.Col xs={6}>
+                <DynamicImage src="images/visualisations/exteriors/03_urb.jpg" hoverSrc="images/visualisations/exteriors/03_urb.jpg" hoverDescription={t("visExteriorDescription02")}/>
+                            </Grid.Col>
+                            
             </Grid>
         </Box>
     );

@@ -41,9 +41,9 @@ export function Projects() {
                         description: t("projectOsrodekTerapiiTitle1"),
                     },
                     {
-                        imageSrc: "https://assets.gamepur.com/wp-content/uploads/2022/05/15130111/Barn-in-Minecraft.jpg",
+                        imageSrc: "",
                         link: "3",
-                        description: "Stodoła w Minecraft"
+                        description: ""
                     },
                     {
                         imageSrc: "images/projects/pawilon/vizMain.jpg",
