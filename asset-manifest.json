@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "https://zmajcherczyk.github.io/portfolio/static/css/main.dd76f776.css",
-    "main.js": "https://zmajcherczyk.github.io/portfolio/static/js/main.02bc587e.js",
+    "main.js": "https://zmajcherczyk.github.io/portfolio/static/js/main.bbc4870f.js",
     "static/js/787.1ed0c42c.chunk.js": "https://zmajcherczyk.github.io/portfolio/static/js/787.1ed0c42c.chunk.js",
     "index.html": "https://zmajcherczyk.github.io/portfolio/index.html",
     "static/media/getFetch.cjs": "https://zmajcherczyk.github.io/portfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.dd76f776.css.map": "https://zmajcherczyk.github.io/portfolio/static/css/main.dd76f776.css.map",
-    "main.02bc587e.js.map": "https://zmajcherczyk.github.io/portfolio/static/js/main.02bc587e.js.map",
+    "main.bbc4870f.js.map": "https://zmajcherczyk.github.io/portfolio/static/js/main.bbc4870f.js.map",
     "787.1ed0c42c.chunk.js.map": "https://zmajcherczyk.github.io/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd76f776.css",
-    "static/js/main.02bc587e.js"
+    "static/js/main.bbc4870f.js"
   ]
 }
